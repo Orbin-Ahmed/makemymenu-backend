@@ -1,0 +1,166 @@
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--  <head>-->
+<!--    &lt;!&ndash; Required meta tags &ndash;&gt;-->
+<!--    <meta charset="utf-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+<!--    <link rel="preconnect" href="https://fonts.googleapis.com">-->
+<!--<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+<!--<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">-->
+
+<!--    &lt;!&ndash; Bootstrap CSS &ndash;&gt;-->
+<!--  </head>-->
+<!--  <body style="font-family: 'Poppins', sans-serif;">-->
+<!--    <div class="container" style="padding-top:2rem;">-->
+
+
+<!--      <div class="logo" style="text-align:center;">-->
+<!--        <img width="15%"src="https://drive.google.com/uc?export=view&id=1tziewZ0NoH686ZUta8V9UttESWy0F20n">-->
+<!--      </div>-->
+<!--          <img src="">-->
+
+<!--            <div style="width: 50%; margin:1rem 25%; border: 2px solid;">-->
+<!--            <div class="" style="background:#000000; color:#ffffff; text-align: center;">-->
+<!--              <h3 style="font-size:24px; margin:0;padding: 1rem;" class="">Ownership change request</h5>-->
+<!--            </div>-->
+<!--            <div style="padding:1rem;">-->
+<!--                <p style="font-size:16px;"><strong>Hello {{Name}}</strong> </p>-->
+<!--              <p style="font-size:16px;">You have requested ownership transfer for your restaurant on <a href="#" style="cursor:pointer; color:#000000; text-decoration:none;"><strong> Makemymenu!</strong></a></p>-->
+<!--              <p style="font-size:16px;">Your request has been received and will be processed within 24 hours.</p>-->
+
+<!--              <p style="font-size:16px;">If you have not requested the ownership transfer please contact us at <a href="#" style="cursor:pointer; color:#000000; text-decoration:none;"><strong> support@makemymenu.com </strong></a></p>-->
+
+<!--              <p style="font-size:16px;">Thank you for Using<a href="#" style="cursor:pointer; color:#000000; text-decoration:none;"><strong> Makemymenu!</strong></a></p>-->
+<!--            </div>-->
+<!--          </div>-->
+
+
+<!--    </div>-->
+
+<!--    &lt;!&ndash; Optional JavaScript &ndash;&gt;-->
+<!--    &lt;!&ndash; jQuery first, then Popper.js, then Bootstrap JS &ndash;&gt;-->
+<!--    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+<!--    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.3/dist/umd/popper-base.min.js" integrity="sha384-12zU6AYdbS6ZzUkT0T6T0f4y4+4yLoJF2sK0ahZr/hkLgjKPe9X/iOQvHxVKrhEH" crossorigin="anonymous"></script>-->
+<!--    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
+<!--  </body>-->
+<!--</html>-->
+
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <title>Email Verification Code</title>
+
+    <style>
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            padding-top: 2rem;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .logo img {
+            width: 30%;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .content {
+            width: 100%;
+            border: 2px solid;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .header {
+            background: #000000;
+            color: #ffffff;
+            text-align: center;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .header h3 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .body {
+            padding: 1rem;
+        }
+
+        .body p {
+            font-size: 16px;
+            margin: 0 0 1rem;
+        }
+
+        .body h3 {
+            font-size: 24px;
+            margin: 0;
+            text-align: center;
+        }
+
+        @media (max-width: 767px) {
+            .content {
+                width: 90%;
+            }
+
+            .logo img {
+                width: 40%;
+            }
+        }
+
+    </style>
+
+</head>
+<body style="font-family: 'Poppins', sans-serif;">
+
+<div class="container">
+    <div class="logo">
+        <img src="https://drive.google.com/uc?export=view&id=1tziewZ0NoH686ZUta8V9UttESWy0F20n" alt="Logo">
+    </div>
+
+    <div class="content">
+        <div class="header">
+            <h3>Ownership change request</h3>
+        </div>
+        <div class="body">
+            <p><strong>Hello {{name}}</strong></p>
+            <p>You have requested ownership transfer for your company on <strong>Makemymenu!</strong></p>
+            <p>Your request has been received and will be processed within 24 hours.</p>
+            <p>If you have not requested the ownership transfer please contact us at <strong> support@makemymenu.com </strong> </p>
+            <p>Thank you for Using<strong> Makemymenu! </strong> </p>
+ 
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

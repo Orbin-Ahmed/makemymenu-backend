@@ -1,0 +1,121 @@
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <title>Payment Successful</title>
+
+    <style>
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            padding-top: 2rem;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .logo img {
+            width: 30%;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .content {
+            width: 100%;
+            border: 2px solid;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .header {
+            background: #000000;
+            color: #ffffff;
+            text-align: center;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .header h3 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .body {
+            padding: 1rem;
+        }
+
+        .body p {
+            font-size: 16px;
+            margin: 0 0 1rem;
+        }
+
+        .body h3 {
+            font-size: 24px;
+            margin: 0;
+            text-align: center;
+        }
+        .body span{
+            font-weight: 600;
+        }
+
+        @media (max-width: 767px) {
+            .content {
+                width: 90%;
+            }
+
+            .logo img {
+                width: 40%;
+            }
+        }
+
+    </style>
+
+</head>
+<body style="font-family: 'Poppins', sans-serif;">
+
+<div class="container">
+    <div class="logo">
+        <img src="https://drive.google.com/uc?export=view&id=1tziewZ0NoH686ZUta8V9UttESWy0F20n" alt="Logo">
+    </div>
+
+    <div class="content">
+        <div class="header">
+            <h3>Contact Us information</h3>
+        </div>
+        <div class="body">
+            <p><strong>Hello {{name}}</strong></p>
+            <p>An User have filled the contact form</p>
+            <p>Here are the information's </p>
+
+            <p> <span>Name: </span>{{ user_name }}</p>
+            <p> <span>Name: </span>{{ user_email }}</p>
+            <p> <span>Name: </span>{{ subject }}</p>
+            <p> <span>Description </span>{{ Description }}</p>
+
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
